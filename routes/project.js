@@ -6,15 +6,15 @@ var fs = require('fs');
 router.get('/:id', function(req, res) {
      fs.readFile( './data/projects.json', 'utf8', function (err, data) {
        var projects = JSON.parse(data);
-       var projectId = null;
+       var project = null;
        for (i = 0; i < projects.length; i++) {
            if (req.params.id == projects[i]._id) {
                console.log(projects[i]._id);
-               projectId = projects[i]._id;
+               project = projects[i]._id;
            }
        }
-       if (projectId) {
-           res.send(projectId);
+       if (project) {
+           res.send(project);
        }
        else {
            res.status(404).send('Project not found');
