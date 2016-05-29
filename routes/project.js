@@ -10,7 +10,7 @@ router.get('/:id', function(req, res) {
        for (i = 0; i < projects.length; i++) {
            if (req.params.id == projects[i]._id) {
                console.log(projects[i]._id);
-               project = projects[i]._id;
+               project = projects[i];
            }
        }
        if (project) {
