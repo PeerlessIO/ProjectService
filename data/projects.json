@@ -1,17 +1,29 @@
 [
     {
         "_id": "d82dd26a207311e6b67b9e71128cae77",
-        "name": "Learn UX",
-        "startDate": "2012-04-23T18:25:43.511Z"
+        "title": "Add humanity to an electronic Patient Portal",
+        "instructor": "Patrick Bartenstein",
+        "effort": 24,
+        "startDate": "2016-08-23T18:25:43.511Z",
+        "participants": 53,
+        "tags": ["Medical", "Desktop", "Health", "Product", "Design"]
     },
     {
         "_id": "d82dd4fe207311e6b67b9e71128cae77",
-        "name": "Angular 2 Webapp",
-        "startDate": "2012-04-23T18:25:43.511Z"
+        "title": "How to develop Angular 2 apps",
+        "instructor": "Chris Lankford",
+        "effort": 128,
+        "startDate": "2016-07-23T18:25:43.511Z",
+        "participants": 12,
+        "tags": ["Javascript", "Development", "Web"]
     },
     {
         "_id": "d82dd670207311e6b67b9e71128cae77",
-        "name": "Learn to 'Hello World'",
-        "startDate": "2012-04-23T18:25:43.511Z"
+        "title": "Design an ecommerce portal",
+        "instructor": "Patrick Bartenstein",
+        "effort": 15,
+        "startDate": "2016-06-12T18:25:43.511Z",
+        "participants": 213,
+        "tags": ["Design", "Ecommerce"]
     }
 ]
